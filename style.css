@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+#container {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: -40px;
+}
+
+#sedans {
+    width: 350px;
+    height: 470px;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 7px 0px 0px 7px;
+}
+
+#suvs {
+    width: 350px;
+    height: 470px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+    width: 350px;
+    height: 470px;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 7px 7px 0px;
+}
+
+.icone {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.title {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 32pt;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.text {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 90px;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-justify: auto;
+}
+
+#b1 {
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 145px;
+    padding: 12px;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    color: hsl(31, 77%, 52%);
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#b1:hover {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+#b2 {
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 145px;
+    padding: 12px;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    color: hsl(184, 100%, 22%);
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#b2:hover {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+#b3 {
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 145px;
+    padding: 12px;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    color: hsl(179, 100%, 13%);
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#b3:hover {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+#credits {
+    font-family: "Lexends Deca", sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    margin: -95px 25% 0% 25%;
+}
+
+#borda {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 0px 20px 0px 20px;
+    padding: 20px;
+}
+
+#borda::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(29deg, rgba(255, 50, 237, 1) 40%, rgba(50, 243, 255, 1) 60%);
+    z-index: -1;
+    margin: -4px;
+    border-radius: 0px 25px 0px 25px;
+}
+
+#fast {
+    font-family: "Lexends Deca", sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+#credits a {
+    color: #000000;
+    text-decoration: none;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 300;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    padding: 8px;
+    margin-top: -14px;
+    transition: .5s;
+}
+
+#credits a:hover {
+    color: #ffffff;
+    border: 2px solid #11f9ff;
+    background-color: #ff32ed;
+}
+
+@media only screen and (max-width: 376px) {
+
+    #container {
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 40%;
+    }
+
+    #sedans {
+        height: 430px;
+        width: 90%;
+        border-radius: 7px 7px 0px 0px;
+    }
+
+    #suvs {
+        height: 430px;
+        width: 90%;
+    }
+
+    #luxury {
+        height: 430px;
+        width: 90%;
+        border-radius: 0px 0px 7px 7px;
+        margin-bottom: -25px;
+    }
+
+    .icone {
+        margin-left: 45px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .title {
+        margin-left: 45px;
+    }
+
+    .text {
+        margin-right: 45px;
+        margin-left: 45px;
+    }
+
+    #b1 {
+        margin-left: 45px;
+        margin-top: 50px;
+    }
+
+    #b2 {
+        margin-left: 45px;
+        margin-top: 50px;
+    } 
+
+    #b3 {
+        margin-left: 45px;
+        margin-top: 50px;
+    }
+
+    #credits {
+        width: 90%;
+        padding: none;
+        margin: -90px 0px 0px 0px;
+        font-size: 10pt;
+    }
+
+    #borda {
+        padding: 14px;
+        border-radius: 20px 0px 20px 0px;
+        margin-left: 18px;
+        margin-right: -15px;
+    }
+
+    #borda::before {
+        border-radius: 20px 0px 20px 0px;
+    }
+
+    #credits a {
+        padding-top: 10px;
+        padding-bottom: 105px;
+        margin-left: -5px;
+        border: transparent;
+        background-color: hidden;
+    }
+
+    #credits a:hover {
+        color: #11f9ff;
+        border: hidden;
+        background-color: transparent;
+    }
+}
