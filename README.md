@@ -13,7 +13,7 @@ I need to better understand the issue of positioning elements on the page, in ad
 ![](./screenshots/3%20Column%20Card%20-%20Mobile1.png)
 ![](./screenshots/3%20Column%20Card%20-%20Mobile2.png)
 
-##Links
+<h2>Links</h2>
 
 Solution Link: 
 Live Serve: (https://patejo-coder.github.io/3-column-preview-card-component-main/)
